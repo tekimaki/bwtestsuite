@@ -1,0 +1,16 @@
+A set of libraries for building tests for the CMS bitweaver
+
+Required Dependencies:
+Install PHPUnit with PEAR
+pear channel-discover pear.phpunit.de
+pear install phpunit/PHPUnit
+
+Install:
+$ cd <bitweaver_root_dir>
+$ git clone git://github.com/tekimaki/bwtestsuite.git
+
+Sample PHPUnit test case included, to run:
+$ cd bwtestsuite/phpunit
+$ phpunit --testdox SampleTestCase
+
+
